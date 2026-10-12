@@ -1,0 +1,58 @@
+version: '3.8'
+
+services:
+  postgres:
+    image: postgres:17
+    container_name: finance-postgres
+    restart: always
+    environment:
+      POSTGRES_USER: ${DB_USER:-lab_admin}
+      POSTGRES_PASSWORD: ${DB_PASSWORD:-lab_admin_2026}
+      POSTGRES_DB: ${DB_NAME:-finance_lab}
+    ports:
+      - "${DB_PORT:-5432}:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./sql:/docker-entrypoint-initdb.d
+    networks:
+      - finance-net
+
+  cloudbeaver:
+    image: dbeaver/cloudbeaver:latest
+    container_name: finance-cloudbeaver
+    restart: always
+    ports:
+      - "8978:8978"
+    depends_on:
+      - postgres
+    networks:
+      - finance-net
+
+  n8n:
+    image: n8nio/n8n:latest
+    container_name: n8n
+    restart: always
+    ports:
+      - "5678:5678"
+    environment:
+      - N8N_BASIC_AUTH_ACTIVE=false
+      - N8N_HOST=localhost
+      - N8N_PORT=5678
+      - N8N_PROTOCOL=http
+      - EXECUTIONS_DATA_PRUNE=true
+      - EXECUTIONS_DATA_MAX_AGE=168
+      - GENERIC_TIMEZONE=Asia/Seoul
+    volumes:
+      - n8n_data:/home/node/.n8n
+    depends_on:
+      - postgres
+    networks:
+      - finance-net
+
+volumes:
+  postgres_data:
+  n8n_data:
+
+networks:
+  finance-net:
+    driver: bridge

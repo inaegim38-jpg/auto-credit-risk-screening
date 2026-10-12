@@ -1,0 +1,2194 @@
+{
+  "dim_company": [
+    {
+      "corp_code": "01042775",
+      "company_name": "HL만도",
+      "stock_code": "204320",
+      "industry_group": "자동차부품",
+      "in_sample": true
+    },
+    {
+      "corp_code": "00401731",
+      "company_name": "LG전자",
+      "stock_code": "066570",
+      "industry_group": "기타",
+      "in_sample": false
+    },
+    {
+      "corp_code": "00155319",
+      "company_name": "POSCO홀딩스",
+      "stock_code": "005490",
+      "industry_group": "기타",
+      "in_sample": false
+    },
+    {
+      "corp_code": "00164779",
+      "company_name": "SK하이닉스",
+      "stock_code": "000660",
+      "industry_group": "기타",
+      "in_sample": false
+    },
+    {
+      "corp_code": "00398792",
+      "company_name": "SNT모티브",
+      "stock_code": "064960",
+      "industry_group": "자동차부품",
+      "in_sample": true
+    },
+    {
+      "corp_code": "00106641",
+      "company_name": "기아",
+      "stock_code": "000270",
+      "industry_group": "완성차",
+      "in_sample": false
+    },
+    {
+      "corp_code": "00173078",
+      "company_name": "명신산업",
+      "stock_code": "009900",
+      "industry_group": "자동차부품",
+      "in_sample": true
+    },
+    {
+      "corp_code": "00126380",
+      "company_name": "삼성전자",
+      "stock_code": "005930",
+      "industry_group": "기타",
+      "in_sample": false
+    },
+    {
+      "corp_code": "01036446",
+      "company_name": "서연이화",
+      "stock_code": "200880",
+      "industry_group": "자동차부품",
+      "in_sample": true
+    },
+    {
+      "corp_code": "00132992",
+      "company_name": "성우하이텍",
+      "stock_code": "015750",
+      "industry_group": "자동차부품",
+      "in_sample": true
+    },
+    {
+      "corp_code": "00148045",
+      "company_name": "에스엘",
+      "stock_code": "005850",
+      "industry_group": "자동차부품",
+      "in_sample": true
+    },
+    {
+      "corp_code": "00561866",
+      "company_name": "에스엘",
+      "stock_code": "115390",
+      "industry_group": "자동차부품",
+      "in_sample": true
+    },
+    {
+      "corp_code": "00164788",
+      "company_name": "현대모비스",
+      "stock_code": "012330",
+      "industry_group": "자동차부품",
+      "in_sample": true
+    },
+    {
+      "corp_code": "00164742",
+      "company_name": "현대자동차",
+      "stock_code": "005380",
+      "industry_group": "완성차",
+      "in_sample": false
+    },
+    {
+      "corp_code": "00166315",
+      "company_name": "화신",
+      "stock_code": "010690",
+      "industry_group": "자동차부품",
+      "in_sample": true
+    }
+  ],
+  "finance_raw_count": 102,
+  "finance_standard_count": 102,
+  "finance_standard_data": [
+    {
+      "company_name": "HL만도",
+      "corp_code": "01042775",
+      "fiscal_year": 2021,
+      "fs_div": "CFS",
+      "operating_profit": "232312044666",
+      "interest_expense": "49622336413",
+      "interest_source": "paid_operating",
+      "short_term_debt": "525455940264",
+      "debt": "1937477324634",
+      "equity": "2044255959667",
+      "mapping_status": "mapped"
+    },
+    {
+      "company_name": "HL만도",
+      "corp_code": "01042775",
+      "fiscal_year": 2021,
+      "fs_div": "OFS",
+      "operating_profit": "26805177106",
+      "interest_expense": "33523834840",
+      "interest_source": "paid_operating",
+      "short_term_debt": "293600000000",
+      "debt": "1353465794549",
+      "equity": "1155194386394",
+      "mapping_status": "mapped"
+    },
+    {
+      "company_name": "HL만도",
+      "corp_code": "01042775",
+      "fiscal_year": 2022,
+      "fs_div": "CFS",
+      "operating_profit": "248102024875",
+      "interest_expense": "55442621617",
+      "interest_source": "paid_operating",
+      "short_term_debt": "594121278296",
+      "debt": "1777813722619",
+      "equity": "2273746112263",
+      "mapping_status": "mapped"
+    },
+    {
+      "company_name": "HL만도",
+      "corp_code": "01042775",
+      "fiscal_year": 2022,
+      "fs_div": "OFS",
+      "operating_profit": "-41081522633",
+      "interest_expense": "36720672263",
+      "interest_source": "paid_operating",
+      "short_term_debt": "292000000000",
+      "debt": "1131217810929",
+      "equity": "1900583957865",
+      "mapping_status": "mapped"
+    },
+    {
+      "company_name": "HL만도",
+      "corp_code": "01042775",
+      "fiscal_year": 2023,
+      "fs_div": "CFS",
+      "operating_profit": "279276996280",
+      "interest_expense": "93067924265",
+      "interest_source": "paid_operating",
+      "short_term_debt": "506429549490",
+      "debt": "1547283131162",
+      "equity": null,
+      "mapping_status": "review_required"
+    },
+    {
+      "company_name": "HL만도",
+      "corp_code": "01042775",
+      "fiscal_year": 2023,
+      "fs_div": "OFS",
+      "operating_profit": "-44995037682",
+      "interest_expense": "47925827872",
+      "interest_source": "paid_operating",
+      "short_term_debt": "230000000000",
+      "debt": "909074374196",
+      "equity": null,
+      "mapping_status": "review_required"
+    },
+    {
+      "company_name": "HL만도",
+      "corp_code": "01042775",
+      "fiscal_year": 2024,
+      "fs_div": "CFS",
+      "operating_profit": "358760766831",
+      "interest_expense": "111649774449",
+      "interest_source": "paid_operating",
+      "short_term_debt": null,
+      "debt": "1175786321707",
+      "equity": null,
+      "mapping_status": "review_required"
+    },
+    {
+      "company_name": "HL만도",
+      "corp_code": "01042775",
+      "fiscal_year": 2024,
+      "fs_div": "OFS",
+      "operating_profit": "-17327963517",
+      "interest_expense": "58949231857",
+      "interest_source": "paid_operating",
+      "short_term_debt": null,
+      "debt": "738604735727",
+      "equity": null,
+      "mapping_status": "review_required"
+    },
+    {
+      "company_name": "HL만도",
+      "corp_code": "01042775",
+      "fiscal_year": 2025,
+      "fs_div": "CFS",
+      "operating_profit": "357120974882",
+      "interest_expense": "106398741253",
+      "interest_source": "paid_operating",
+      "short_term_debt": null,
+      "debt": "965892545521",
+      "equity": null,
+      "mapping_status": "review_required"
+    },
+    {
+      "company_name": "HL만도",
+      "corp_code": "01042775",
+      "fiscal_year": 2025,
+      "fs_div": "OFS",
+      "operating_profit": "13491478981",
+      "interest_expense": "57243402826",
+      "interest_source": "paid_operating",
+      "short_term_debt": null,
+      "debt": "658514168796",
+      "equity": null,
+      "mapping_status": "review_required"
+    },
+    {
+      "company_name": "LG전자",
+      "corp_code": "00401731",
+      "fiscal_year": 2021,
+      "fs_div": "CFS",
+      "operating_profit": "3863774000000",
+      "interest_expense": "318512000000",
+      "interest_source": "paid_operating",
+      "short_term_debt": "1895600000000",
+      "debt": "9931553000000",
+      "equity": "20098033000000",
+      "mapping_status": "mapped"
+    },
+    {
+      "company_name": "LG전자",
+      "corp_code": "00401731",
+      "fiscal_year": 2022,
+      "fs_div": "CFS",
+      "operating_profit": "3550972000000",
+      "interest_expense": "374707000000",
+      "interest_source": "paid_operating",
+      "short_term_debt": "2287518000000",
+      "debt": "11045187000000",
+      "equity": "22491997000000",
+      "mapping_status": "mapped"
+    },
+    {
+      "company_name": "LG전자",
+      "corp_code": "00401731",
+      "fiscal_year": 2023,
+      "fs_div": "CFS",
+      "operating_profit": "3549074000000",
+      "interest_expense": "559990000000",
+      "interest_source": "paid_operating",
+      "short_term_debt": "2601636000000",
+      "debt": "2601636000000",
+      "equity": null,
+      "mapping_status": "review_required"
+    },
+    {
+      "company_name": "POSCO홀딩스",
+      "corp_code": "00155319",
+      "fiscal_year": 2021,
+      "fs_div": "CFS",
+      "operating_profit": "9238089232877",
+      "interest_expense": "433794265178",
+      "interest_source": "paid_operating",
+      "short_term_debt": "8830066912208",
+      "debt": "21741215775586",
+      "equity": "54804943351665",
+      "mapping_status": "mapped"
+    },
+    {
+      "company_name": "POSCO홀딩스",
+      "corp_code": "00155319",
+      "fiscal_year": 2022,
+      "fs_div": "CFS",
+      "operating_profit": "4850053015766",
+      "interest_expense": "560765795242",
+      "interest_source": "paid_operating",
+      "short_term_debt": "11915993975888",
+      "debt": "24305662117131",
+      "equity": "58257400589250",
+      "mapping_status": "mapped"
+    },
+    {
+      "company_name": "POSCO홀딩스",
+      "corp_code": "00155319",
+      "fiscal_year": 2023,
+      "fs_div": "CFS",
+      "operating_profit": "3531422506439",
+      "interest_expense": "1038004558676",
+      "interest_source": "paid_operating",
+      "short_term_debt": "10959217193118",
+      "debt": "25970379565188",
+      "equity": null,
+      "mapping_status": "review_required"
+    },
+    {
+      "company_name": "SK하이닉스",
+      "corp_code": "00164779",
+      "fiscal_year": 2021,
+      "fs_div": "CFS",
+      "operating_profit": "12410340000000",
+      "interest_expense": "240942000000",
+      "interest_source": "paid_operating",
+      "short_term_debt": "2880763000000",
+      "debt": "17623809000000",
+      "equity": "62191058000000",
+      "mapping_status": "mapped"
+    },
+    {
+      "company_name": "SK하이닉스",
+      "corp_code": "00164779",
+      "fiscal_year": 2022,
+      "fs_div": "CFS",
+      "operating_profit": "6809417000000",
+      "interest_expense": "494513000000",
+      "interest_source": "paid_operating",
+      "short_term_debt": "7423247000000",
+      "debt": "22994604000000",
+      "equity": "63290542000000",
+      "mapping_status": "mapped"
+    },
+    {
+      "company_name": "SK하이닉스",
+      "corp_code": "00164779",
+      "fiscal_year": 2023,
+      "fs_div": "CFS",
+      "operating_profit": "-7730313000000",
+      "interest_expense": "1261540000000",
+      "interest_source": "paid_operating",
+      "short_term_debt": "9857189000000",
+      "debt": "9857189000000",
+      "equity": null,
+      "mapping_status": "review_required"
+    },
+    {
+      "company_name": "SNT모티브",
+      "corp_code": "00398792",
+      "fiscal_year": 2021,
+      "fs_div": "CFS",
+      "operating_profit": "91595252246",
+      "interest_expense": "32428344",
+      "interest_source": "paid_operating",
+      "short_term_debt": null,
+      "debt": null,
+      "equity": "857577114045",
+      "mapping_status": "mapped"
+    },
+    {
+      "company_name": "SNT모티브",
+      "corp_code": "00398792",
+      "fiscal_year": 2021,
+      "fs_div": "OFS",
+      "operating_profit": "93870483052",
+      "interest_expense": "32428344",
+      "interest_source": "paid_operating",
+      "short_term_debt": null,
+      "debt": null,
+      "equity": "849905747628",
+      "mapping_status": "mapped"
+    },
+    {
+      "company_name": "SNT모티브",
+      "corp_code": "00398792",
+      "fiscal_year": 2022,
+      "fs_div": "CFS",
+      "operating_profit": "111925067671",
+      "interest_expense": "0",
+      "interest_source": "paid_operating",
+      "short_term_debt": null,
+      "debt": null,
+      "equity": "879026675770",
+      "mapping_status": "mapped"
+    },
+    {
+      "company_name": "SNT모티브",
+      "corp_code": "00398792",
+      "fiscal_year": 2022,
+      "fs_div": "OFS",
+      "operating_profit": "113170593628",
+      "interest_expense": "0",
+      "interest_source": "paid_operating",
+      "short_term_debt": null,
+      "debt": null,
+      "equity": "875815044028",
+      "mapping_status": "mapped"
+    },
+    {
+      "company_name": "SNT모티브",
+      "corp_code": "00398792",
+      "fiscal_year": 2023,
+      "fs_div": "CFS",
+      "operating_profit": "116628673833",
+      "interest_expense": "0",
+      "interest_source": "paid_operating",
+      "short_term_debt": null,
+      "debt": null,
+      "equity": null,
+      "mapping_status": "review_required"
+    },
+    {
+      "company_name": "SNT모티브",
+      "corp_code": "00398792",
+      "fiscal_year": 2023,
+      "fs_div": "OFS",
+      "operating_profit": "120240879190",
+      "interest_expense": "0",
+      "interest_source": "paid_operating",
+      "short_term_debt": null,
+      "debt": null,
+      "equity": null,
+      "mapping_status": "review_required"
+    },
+    {
+      "company_name": "SNT모티브",
+      "corp_code": "00398792",
+      "fiscal_year": 2024,
+      "fs_div": "CFS",
+      "operating_profit": "98128121434",
+      "interest_expense": null,
+      "interest_source": null,
+      "short_term_debt": null,
+      "debt": null,
+      "equity": null,
+      "mapping_status": "review_required"
+    },
+    {
+      "company_name": "SNT모티브",
+      "corp_code": "00398792",
+      "fiscal_year": 2024,
+      "fs_div": "OFS",
+      "operating_profit": "99149942526",
+      "interest_expense": null,
+      "interest_source": null,
+      "short_term_debt": null,
+      "debt": null,
+      "equity": null,
+      "mapping_status": "review_required"
+    },
+    {
+      "company_name": "SNT모티브",
+      "corp_code": "00398792",
+      "fiscal_year": 2025,
+      "fs_div": "CFS",
+      "operating_profit": "102552954912",
+      "interest_expense": null,
+      "interest_source": null,
+      "short_term_debt": null,
+      "debt": null,
+      "equity": null,
+      "mapping_status": "review_required"
+    },
+    {
+      "company_name": "SNT모티브",
+      "corp_code": "00398792",
+      "fiscal_year": 2025,
+      "fs_div": "OFS",
+      "operating_profit": "109161451755",
+      "interest_expense": null,
+      "interest_source": null,
+      "short_term_debt": null,
+      "debt": null,
+      "equity": null,
+      "mapping_status": "review_required"
+    },
+    {
+      "company_name": "기아",
+      "corp_code": "00106641",
+      "fiscal_year": 2021,
+      "fs_div": "CFS",
+      "operating_profit": "5065685000000",
+      "interest_expense": "168632000000",
+      "interest_source": "paid_operating",
+      "short_term_debt": "4415620000000",
+      "debt": "9343877000000",
+      "equity": "34912556000000",
+      "mapping_status": "mapped"
+    },
+    {
+      "company_name": "기아",
+      "corp_code": "00106641",
+      "fiscal_year": 2021,
+      "fs_div": "OFS",
+      "operating_profit": "2819212000000",
+      "interest_expense": "124485000000",
+      "interest_source": "paid_operating",
+      "short_term_debt": "3972609000000",
+      "debt": "8065959000000",
+      "equity": "25575912000000",
+      "mapping_status": "mapped"
+    },
+    {
+      "company_name": "기아",
+      "corp_code": "00106641",
+      "fiscal_year": 2022,
+      "fs_div": "CFS",
+      "operating_profit": "7233120000000",
+      "interest_expense": "226721000000",
+      "interest_source": "paid_operating",
+      "short_term_debt": "3428143000000",
+      "debt": "7472524000000",
+      "equity": "39343081000000",
+      "mapping_status": "mapped"
+    },
+    {
+      "company_name": "기아",
+      "corp_code": "00106641",
+      "fiscal_year": 2022,
+      "fs_div": "OFS",
+      "operating_profit": "3000886000000",
+      "interest_expense": "187122000000",
+      "interest_source": "paid_operating",
+      "short_term_debt": "3199037000000",
+      "debt": "6815069000000",
+      "equity": "26470173000000",
+      "mapping_status": "mapped"
+    },
+    {
+      "company_name": "기아",
+      "corp_code": "00106641",
+      "fiscal_year": 2023,
+      "fs_div": "CFS",
+      "operating_profit": "11607873000000",
+      "interest_expense": "197326000000",
+      "interest_source": "paid_operating",
+      "short_term_debt": "1097578000000",
+      "debt": "3799839000000",
+      "equity": null,
+      "mapping_status": "review_required"
+    },
+    {
+      "company_name": "기아",
+      "corp_code": "00106641",
+      "fiscal_year": 2023,
+      "fs_div": "OFS",
+      "operating_profit": "6305665000000",
+      "interest_expense": "165257000000",
+      "interest_source": "paid_operating",
+      "short_term_debt": "1097578000000",
+      "debt": "3799839000000",
+      "equity": null,
+      "mapping_status": "review_required"
+    },
+    {
+      "company_name": "기아",
+      "corp_code": "00106641",
+      "fiscal_year": 2024,
+      "fs_div": "CFS",
+      "operating_profit": "12667139000000",
+      "interest_expense": "167854000000",
+      "interest_source": "paid_operating",
+      "short_term_debt": "1058671000000",
+      "debt": "3234244000000",
+      "equity": null,
+      "mapping_status": "review_required"
+    },
+    {
+      "company_name": "기아",
+      "corp_code": "00106641",
+      "fiscal_year": 2024,
+      "fs_div": "OFS",
+      "operating_profit": "8499530000000",
+      "interest_expense": "110580000000",
+      "interest_source": "paid_operating",
+      "short_term_debt": "1058671000000",
+      "debt": "3234244000000",
+      "equity": null,
+      "mapping_status": "review_required"
+    },
+    {
+      "company_name": "기아",
+      "corp_code": "00106641",
+      "fiscal_year": 2025,
+      "fs_div": "CFS",
+      "operating_profit": "9078148000000",
+      "interest_expense": "138132000000",
+      "interest_source": "paid_operating",
+      "short_term_debt": "1364959000000",
+      "debt": "2343929000000",
+      "equity": null,
+      "mapping_status": "review_required"
+    },
+    {
+      "company_name": "기아",
+      "corp_code": "00106641",
+      "fiscal_year": 2025,
+      "fs_div": "OFS",
+      "operating_profit": "5954083000000",
+      "interest_expense": "81340000000",
+      "interest_source": "paid_operating",
+      "short_term_debt": "1364959000000",
+      "debt": "NaN",
+      "equity": null,
+      "mapping_status": "review_required"
+    },
+    {
+      "company_name": "명신산업",
+      "corp_code": "00173078",
+      "fiscal_year": 2021,
+      "fs_div": "CFS",
+      "operating_profit": "56483430574",
+      "interest_expense": "6199268789",
+      "interest_source": "paid_financing",
+      "short_term_debt": "129948895375",
+      "debt": "215144609414",
+      "equity": "297090778845",
+      "mapping_status": "mapped"
+    },
+    {
+      "company_name": "명신산업",
+      "corp_code": "00173078",
+      "fiscal_year": 2021,
+      "fs_div": "OFS",
+      "operating_profit": "10554673911",
+      "interest_expense": "1712901366",
+      "interest_source": "paid_financing",
+      "short_term_debt": "16390403916",
+      "debt": "37007074696",
+      "equity": "171555428064",
+      "mapping_status": "mapped"
+    },
+    {
+      "company_name": "명신산업",
+      "corp_code": "00173078",
+      "fiscal_year": 2022,
+      "fs_div": "CFS",
+      "operating_profit": "126853664705",
+      "interest_expense": "10355522866",
+      "interest_source": "paid_financing",
+      "short_term_debt": "126168277265",
+      "debt": "288461044516",
+      "equity": "383799554377",
+      "mapping_status": "mapped"
+    },
+    {
+      "company_name": "명신산업",
+      "corp_code": "00173078",
+      "fiscal_year": 2022,
+      "fs_div": "OFS",
+      "operating_profit": "18767916714",
+      "interest_expense": "1258433673",
+      "interest_source": "paid_financing",
+      "short_term_debt": "14339616439",
+      "debt": "21680486290",
+      "equity": "188409463213",
+      "mapping_status": "mapped"
+    },
+    {
+      "company_name": "명신산업",
+      "corp_code": "00173078",
+      "fiscal_year": 2023,
+      "fs_div": "CFS",
+      "operating_profit": "208112383711",
+      "interest_expense": "14806145083",
+      "interest_source": "paid_financing",
+      "short_term_debt": "72298907867",
+      "debt": "247347202126",
+      "equity": null,
+      "mapping_status": "review_required"
+    },
+    {
+      "company_name": "명신산업",
+      "corp_code": "00173078",
+      "fiscal_year": 2023,
+      "fs_div": "OFS",
+      "operating_profit": "14215602603",
+      "interest_expense": "573095548",
+      "interest_source": "paid_financing",
+      "short_term_debt": "27437158",
+      "debt": "112650665",
+      "equity": null,
+      "mapping_status": "review_required"
+    },
+    {
+      "company_name": "명신산업",
+      "corp_code": "00173078",
+      "fiscal_year": 2024,
+      "fs_div": "CFS",
+      "operating_profit": "148119754582",
+      "interest_expense": "-16517779804",
+      "interest_source": "paid_financing",
+      "short_term_debt": "72640578784",
+      "debt": "282618812328",
+      "equity": null,
+      "mapping_status": "review_required"
+    },
+    {
+      "company_name": "명신산업",
+      "corp_code": "00173078",
+      "fiscal_year": 2024,
+      "fs_div": "OFS",
+      "operating_profit": "8830960456",
+      "interest_expense": "-45402569",
+      "interest_source": "paid_financing",
+      "short_term_debt": "140569294",
+      "debt": "794250096",
+      "equity": null,
+      "mapping_status": "review_required"
+    },
+    {
+      "company_name": "명신산업",
+      "corp_code": "00173078",
+      "fiscal_year": 2025,
+      "fs_div": "CFS",
+      "operating_profit": "102591824890",
+      "interest_expense": "16147676129",
+      "interest_source": "paid_financing",
+      "short_term_debt": "144667215066",
+      "debt": "144667215066",
+      "equity": null,
+      "mapping_status": "review_required"
+    },
+    {
+      "company_name": "명신산업",
+      "corp_code": "00173078",
+      "fiscal_year": 2025,
+      "fs_div": "OFS",
+      "operating_profit": "1959650544",
+      "interest_expense": "369640331",
+      "interest_source": "paid_financing",
+      "short_term_debt": "19999999988",
+      "debt": "19999999988",
+      "equity": null,
+      "mapping_status": "review_required"
+    },
+    {
+      "company_name": "삼성전자",
+      "corp_code": "00126380",
+      "fiscal_year": 2021,
+      "fs_div": "CFS",
+      "operating_profit": "51633856000000",
+      "interest_expense": "434441000000",
+      "interest_source": "paid_operating",
+      "short_term_debt": "15017761000000",
+      "debt": "18392149000000",
+      "equity": "304899931000000",
+      "mapping_status": "mapped"
+    },
+    {
+      "company_name": "삼성전자",
+      "corp_code": "00126380",
+      "fiscal_year": 2022,
+      "fs_div": "CFS",
+      "operating_profit": "43376630000000",
+      "interest_expense": "714543000000",
+      "interest_source": "paid_operating",
+      "short_term_debt": "6236477000000",
+      "debt": "10333242000000",
+      "equity": "354749604000000",
+      "mapping_status": "mapped"
+    },
+    {
+      "company_name": "삼성전자",
+      "corp_code": "00126380",
+      "fiscal_year": 2023,
+      "fs_div": "CFS",
+      "operating_profit": "6566976000000",
+      "interest_expense": "844691000000",
+      "interest_source": "paid_operating",
+      "short_term_debt": "8423476000000",
+      "debt": "12685944000000",
+      "equity": null,
+      "mapping_status": "review_required"
+    },
+    {
+      "company_name": "서연이화",
+      "corp_code": "01036446",
+      "fiscal_year": 2021,
+      "fs_div": "CFS",
+      "operating_profit": "65969055459",
+      "interest_expense": "17539440623",
+      "interest_source": "paid_operating",
+      "short_term_debt": "318344729269",
+      "debt": "513948435944",
+      "equity": "697738602310",
+      "mapping_status": "mapped"
+    },
+    {
+      "company_name": "서연이화",
+      "corp_code": "01036446",
+      "fiscal_year": 2021,
+      "fs_div": "OFS",
+      "operating_profit": "47154997309",
+      "interest_expense": "5759052950",
+      "interest_source": "paid_operating",
+      "short_term_debt": "132636554361",
+      "debt": "175061738703",
+      "equity": "665259368007",
+      "mapping_status": "mapped"
+    },
+    {
+      "company_name": "서연이화",
+      "corp_code": "01036446",
+      "fiscal_year": 2022,
+      "fs_div": "CFS",
+      "operating_profit": "150682128141",
+      "interest_expense": "19300160986",
+      "interest_source": "paid_operating",
+      "short_term_debt": "311736310311",
+      "debt": "469123592593",
+      "equity": "756886374526",
+      "mapping_status": "mapped"
+    },
+    {
+      "company_name": "서연이화",
+      "corp_code": "01036446",
+      "fiscal_year": 2022,
+      "fs_div": "OFS",
+      "operating_profit": "82070425285",
+      "interest_expense": "5854889335",
+      "interest_source": "paid_operating",
+      "short_term_debt": "141133407674",
+      "debt": "161285647674",
+      "equity": "716522629263",
+      "mapping_status": "mapped"
+    },
+    {
+      "company_name": "서연이화",
+      "corp_code": "01036446",
+      "fiscal_year": 2023,
+      "fs_div": "CFS",
+      "operating_profit": "193109887890",
+      "interest_expense": "31050108286",
+      "interest_source": "paid_operating",
+      "short_term_debt": "292882716789",
+      "debt": "512139582493",
+      "equity": null,
+      "mapping_status": "review_required"
+    },
+    {
+      "company_name": "서연이화",
+      "corp_code": "01036446",
+      "fiscal_year": 2023,
+      "fs_div": "OFS",
+      "operating_profit": "133564824297",
+      "interest_expense": "11130747228",
+      "interest_source": "paid_operating",
+      "short_term_debt": "138197400000",
+      "debt": "196651800000",
+      "equity": null,
+      "mapping_status": "review_required"
+    },
+    {
+      "company_name": "서연이화",
+      "corp_code": "01036446",
+      "fiscal_year": 2024,
+      "fs_div": "CFS",
+      "operating_profit": "154404448469",
+      "interest_expense": "30421309982",
+      "interest_source": "paid_operating",
+      "short_term_debt": "423078511535",
+      "debt": "423078511535",
+      "equity": null,
+      "mapping_status": "review_required"
+    },
+    {
+      "company_name": "서연이화",
+      "corp_code": "01036446",
+      "fiscal_year": 2024,
+      "fs_div": "OFS",
+      "operating_profit": "112803091082",
+      "interest_expense": "13790125732",
+      "interest_source": "paid_operating",
+      "short_term_debt": "244957520000",
+      "debt": "244957520000",
+      "equity": null,
+      "mapping_status": "review_required"
+    },
+    {
+      "company_name": "서연이화",
+      "corp_code": "01036446",
+      "fiscal_year": 2025,
+      "fs_div": "CFS",
+      "operating_profit": "161799822068",
+      "interest_expense": "31685942455",
+      "interest_source": "paid_operating",
+      "short_term_debt": "433435792109",
+      "debt": "773345084817",
+      "equity": null,
+      "mapping_status": "review_required"
+    },
+    {
+      "company_name": "서연이화",
+      "corp_code": "01036446",
+      "fiscal_year": 2025,
+      "fs_div": "OFS",
+      "operating_profit": "123356163687",
+      "interest_expense": "10897667007",
+      "interest_source": "paid_operating",
+      "short_term_debt": "170044300000",
+      "debt": "201544300000",
+      "equity": null,
+      "mapping_status": "review_required"
+    },
+    {
+      "company_name": "성우하이텍",
+      "corp_code": "00132992",
+      "fiscal_year": 2021,
+      "fs_div": "CFS",
+      "operating_profit": "76353909960",
+      "interest_expense": "36196623188",
+      "interest_source": "paid_operating",
+      "short_term_debt": "987718207115",
+      "debt": "1411136602888",
+      "equity": "1380154729783",
+      "mapping_status": "mapped"
+    },
+    {
+      "company_name": "성우하이텍",
+      "corp_code": "00132992",
+      "fiscal_year": 2021,
+      "fs_div": "OFS",
+      "operating_profit": "37635787292",
+      "interest_expense": "14083304793",
+      "interest_source": "paid_operating",
+      "short_term_debt": "408024826464",
+      "debt": "617284387628",
+      "equity": "1036863744301",
+      "mapping_status": "mapped"
+    },
+    {
+      "company_name": "성우하이텍",
+      "corp_code": "00132992",
+      "fiscal_year": 2022,
+      "fs_div": "CFS",
+      "operating_profit": "99182732498",
+      "interest_expense": "47082796392",
+      "interest_source": "paid_operating",
+      "short_term_debt": "1109864866479",
+      "debt": "1432066447427",
+      "equity": "1450611326732",
+      "mapping_status": "mapped"
+    },
+    {
+      "company_name": "성우하이텍",
+      "corp_code": "00132992",
+      "fiscal_year": 2022,
+      "fs_div": "OFS",
+      "operating_profit": "92465631925",
+      "interest_expense": "18432934780",
+      "interest_source": "paid_operating",
+      "short_term_debt": "432837751636",
+      "debt": "561014415899",
+      "equity": "1120636461047",
+      "mapping_status": "mapped"
+    },
+    {
+      "company_name": "성우하이텍",
+      "corp_code": "00132992",
+      "fiscal_year": 2023,
+      "fs_div": "CFS",
+      "operating_profit": "256728659148",
+      "interest_expense": "78243327213",
+      "interest_source": "paid_financing",
+      "short_term_debt": "995875325266",
+      "debt": "1366896766050",
+      "equity": null,
+      "mapping_status": "review_required"
+    },
+    {
+      "company_name": "성우하이텍",
+      "corp_code": "00132992",
+      "fiscal_year": 2023,
+      "fs_div": "OFS",
+      "operating_profit": "138704463221",
+      "interest_expense": "27451332571",
+      "interest_source": "paid_financing",
+      "short_term_debt": "335849668672",
+      "debt": "428024372672",
+      "equity": null,
+      "mapping_status": "review_required"
+    },
+    {
+      "company_name": "성우하이텍",
+      "corp_code": "00132992",
+      "fiscal_year": 2024,
+      "fs_div": "CFS",
+      "operating_profit": "205882638168",
+      "interest_expense": "83184929978",
+      "interest_source": "paid_financing",
+      "short_term_debt": null,
+      "debt": null,
+      "equity": null,
+      "mapping_status": "review_required"
+    },
+    {
+      "company_name": "성우하이텍",
+      "corp_code": "00132992",
+      "fiscal_year": 2024,
+      "fs_div": "OFS",
+      "operating_profit": "55982704716",
+      "interest_expense": "30072759197",
+      "interest_source": "paid_financing",
+      "short_term_debt": null,
+      "debt": null,
+      "equity": null,
+      "mapping_status": "review_required"
+    },
+    {
+      "company_name": "성우하이텍",
+      "corp_code": "00132992",
+      "fiscal_year": 2025,
+      "fs_div": "CFS",
+      "operating_profit": "242683147425",
+      "interest_expense": "91365338863",
+      "interest_source": "paid_financing",
+      "short_term_debt": null,
+      "debt": null,
+      "equity": null,
+      "mapping_status": "review_required"
+    },
+    {
+      "company_name": "성우하이텍",
+      "corp_code": "00132992",
+      "fiscal_year": 2025,
+      "fs_div": "OFS",
+      "operating_profit": "138286890261",
+      "interest_expense": "23430783191",
+      "interest_source": "paid_financing",
+      "short_term_debt": null,
+      "debt": null,
+      "equity": null,
+      "mapping_status": "review_required"
+    },
+    {
+      "company_name": "현대모비스",
+      "corp_code": "00164788",
+      "fiscal_year": 2021,
+      "fs_div": "CFS",
+      "operating_profit": "2040112000000",
+      "interest_expense": "33748000000",
+      "interest_source": "paid_operating",
+      "short_term_debt": "1584475000000",
+      "debt": "3172020000000",
+      "equity": "35357474000000",
+      "mapping_status": "mapped"
+    },
+    {
+      "company_name": "현대모비스",
+      "corp_code": "00164788",
+      "fiscal_year": 2021,
+      "fs_div": "OFS",
+      "operating_profit": "1358350000000",
+      "interest_expense": "5913000000",
+      "interest_source": "paid_operating",
+      "short_term_debt": "1130908000000",
+      "debt": "1479963000000",
+      "equity": "24578908000000",
+      "mapping_status": "mapped"
+    },
+    {
+      "company_name": "현대모비스",
+      "corp_code": "00164788",
+      "fiscal_year": 2022,
+      "fs_div": "CFS",
+      "operating_profit": "2026531000000",
+      "interest_expense": "56594000000",
+      "interest_source": "paid_operating",
+      "short_term_debt": "1781532000000",
+      "debt": "3243581000000",
+      "equity": "37807632000000",
+      "mapping_status": "mapped"
+    },
+    {
+      "company_name": "현대모비스",
+      "corp_code": "00164788",
+      "fiscal_year": 2022,
+      "fs_div": "OFS",
+      "operating_profit": "1405333000000",
+      "interest_expense": "22200000000",
+      "interest_source": "paid_operating",
+      "short_term_debt": "1052232000000",
+      "debt": "1401580000000",
+      "equity": "26088427000000",
+      "mapping_status": "mapped"
+    },
+    {
+      "company_name": "현대모비스",
+      "corp_code": "00164788",
+      "fiscal_year": 2023,
+      "fs_div": "CFS",
+      "operating_profit": "2295284000000",
+      "interest_expense": "121697000000",
+      "interest_source": "paid_operating",
+      "short_term_debt": null,
+      "debt": null,
+      "equity": null,
+      "mapping_status": "review_required"
+    },
+    {
+      "company_name": "현대모비스",
+      "corp_code": "00164788",
+      "fiscal_year": 2023,
+      "fs_div": "OFS",
+      "operating_profit": "1161687000000",
+      "interest_expense": "32135000000",
+      "interest_source": "paid_operating",
+      "short_term_debt": null,
+      "debt": "199686000000",
+      "equity": null,
+      "mapping_status": "review_required"
+    },
+    {
+      "company_name": "현대모비스",
+      "corp_code": "00164788",
+      "fiscal_year": 2024,
+      "fs_div": "CFS",
+      "operating_profit": "3073456000000",
+      "interest_expense": "114390000000",
+      "interest_source": "paid_operating",
+      "short_term_debt": "1071184000000",
+      "debt": "1071184000000",
+      "equity": null,
+      "mapping_status": "review_required"
+    },
+    {
+      "company_name": "현대모비스",
+      "corp_code": "00164788",
+      "fiscal_year": 2024,
+      "fs_div": "OFS",
+      "operating_profit": "1802853000000",
+      "interest_expense": "2599000000",
+      "interest_source": "paid_operating",
+      "short_term_debt": "4325000000",
+      "debt": "4325000000",
+      "equity": null,
+      "mapping_status": "review_required"
+    },
+    {
+      "company_name": "현대모비스",
+      "corp_code": "00164788",
+      "fiscal_year": 2025,
+      "fs_div": "CFS",
+      "operating_profit": "3357456000000",
+      "interest_expense": "206189000000",
+      "interest_source": "paid_operating",
+      "short_term_debt": "1127064000000",
+      "debt": "1127064000000",
+      "equity": null,
+      "mapping_status": "review_required"
+    },
+    {
+      "company_name": "현대모비스",
+      "corp_code": "00164788",
+      "fiscal_year": 2025,
+      "fs_div": "OFS",
+      "operating_profit": "1736959000000",
+      "interest_expense": "10638000000",
+      "interest_source": "paid_operating",
+      "short_term_debt": "144168000000",
+      "debt": "144168000000",
+      "equity": null,
+      "mapping_status": "review_required"
+    },
+    {
+      "company_name": "현대자동차",
+      "corp_code": "00164742",
+      "fiscal_year": 2021,
+      "fs_div": "CFS",
+      "operating_profit": "6678949000000",
+      "interest_expense": "1905945000000",
+      "interest_source": "paid_operating",
+      "short_term_debt": "33666738000000",
+      "debt": "107793278000000",
+      "equity": "82615789000000",
+      "mapping_status": "mapped"
+    },
+    {
+      "company_name": "현대자동차",
+      "corp_code": "00164742",
+      "fiscal_year": 2021,
+      "fs_div": "OFS",
+      "operating_profit": "661623000000",
+      "interest_expense": "83535000000",
+      "interest_source": "paid_operating",
+      "short_term_debt": "4536722000000",
+      "debt": "7088558000000",
+      "equity": "52675012000000",
+      "mapping_status": "mapped"
+    },
+    {
+      "company_name": "현대자동차",
+      "corp_code": "00164742",
+      "fiscal_year": 2022,
+      "fs_div": "CFS",
+      "operating_profit": "9819769000000",
+      "interest_expense": "2695029000000",
+      "interest_source": "paid_operating",
+      "short_term_debt": "36940611000000",
+      "debt": "112185820000000",
+      "equity": "90896545000000",
+      "mapping_status": "mapped"
+    },
+    {
+      "company_name": "현대자동차",
+      "corp_code": "00164742",
+      "fiscal_year": 2022,
+      "fs_div": "OFS",
+      "operating_profit": "2828569000000",
+      "interest_expense": "153026000000",
+      "interest_source": "paid_operating",
+      "short_term_debt": "3680941000000",
+      "debt": "5141624000000",
+      "equity": "55755815000000",
+      "mapping_status": "mapped"
+    },
+    {
+      "company_name": "현대자동차",
+      "corp_code": "00164742",
+      "fiscal_year": 2023,
+      "fs_div": "CFS",
+      "operating_profit": "15126901000000",
+      "interest_expense": "4237818000000",
+      "interest_source": "paid_operating",
+      "short_term_debt": "34144706000000",
+      "debt": "124747959000000",
+      "equity": null,
+      "mapping_status": "review_required"
+    },
+    {
+      "company_name": "현대자동차",
+      "corp_code": "00164742",
+      "fiscal_year": 2023,
+      "fs_div": "OFS",
+      "operating_profit": "6670971000000",
+      "interest_expense": "162066000000",
+      "interest_source": "paid_operating",
+      "short_term_debt": "513646000000",
+      "debt": "NaN",
+      "equity": null,
+      "mapping_status": "review_required"
+    },
+    {
+      "company_name": "현대자동차",
+      "corp_code": "00164742",
+      "fiscal_year": 2024,
+      "fs_div": "CFS",
+      "operating_profit": "14239592000000",
+      "interest_expense": "5932388000000",
+      "interest_source": "paid_operating",
+      "short_term_debt": "36069352000000",
+      "debt": "156489360000000",
+      "equity": null,
+      "mapping_status": "review_required"
+    },
+    {
+      "company_name": "현대자동차",
+      "corp_code": "00164742",
+      "fiscal_year": 2024,
+      "fs_div": "OFS",
+      "operating_profit": "6599372000000",
+      "interest_expense": "165357000000",
+      "interest_source": "paid_operating",
+      "short_term_debt": "633673000000",
+      "debt": "963397000000",
+      "equity": null,
+      "mapping_status": "review_required"
+    },
+    {
+      "company_name": "현대자동차",
+      "corp_code": "00164742",
+      "fiscal_year": 2025,
+      "fs_div": "CFS",
+      "operating_profit": "11467851000000",
+      "interest_expense": "7003623000000",
+      "interest_source": "paid_operating",
+      "short_term_debt": "44149376000000",
+      "debt": "175389838000000",
+      "equity": null,
+      "mapping_status": "review_required"
+    },
+    {
+      "company_name": "현대자동차",
+      "corp_code": "00164742",
+      "fiscal_year": 2025,
+      "fs_div": "OFS",
+      "operating_profit": "3515052000000",
+      "interest_expense": "28471000000",
+      "interest_source": "paid_operating",
+      "short_term_debt": "1469493000000",
+      "debt": "2874997000000",
+      "equity": null,
+      "mapping_status": "review_required"
+    },
+    {
+      "company_name": "화신",
+      "corp_code": "00166315",
+      "fiscal_year": 2021,
+      "fs_div": "CFS",
+      "operating_profit": "24157220350",
+      "interest_expense": "11903112912",
+      "interest_source": "paid_operating",
+      "short_term_debt": "237619427045",
+      "debt": "343714539076",
+      "equity": "288442031388",
+      "mapping_status": "mapped"
+    },
+    {
+      "company_name": "화신",
+      "corp_code": "00166315",
+      "fiscal_year": 2021,
+      "fs_div": "OFS",
+      "operating_profit": "-7150864262",
+      "interest_expense": "6960039586",
+      "interest_source": "paid_operating",
+      "short_term_debt": "137401701483",
+      "debt": "210112058574",
+      "equity": "330327950998",
+      "mapping_status": "mapped"
+    },
+    {
+      "company_name": "화신",
+      "corp_code": "00166315",
+      "fiscal_year": 2022,
+      "fs_div": "CFS",
+      "operating_profit": "87362958755",
+      "interest_expense": "15215855253",
+      "interest_source": "paid_operating",
+      "short_term_debt": "265597825475",
+      "debt": "360909322744",
+      "equity": "356863590822",
+      "mapping_status": "mapped"
+    },
+    {
+      "company_name": "화신",
+      "corp_code": "00166315",
+      "fiscal_year": 2022,
+      "fs_div": "OFS",
+      "operating_profit": "31575435245",
+      "interest_expense": "8816254342",
+      "interest_source": "paid_operating",
+      "short_term_debt": "157301440000",
+      "debt": "227634720000",
+      "equity": "370235706915",
+      "mapping_status": "mapped"
+    },
+    {
+      "company_name": "화신",
+      "corp_code": "00166315",
+      "fiscal_year": 2023,
+      "fs_div": "CFS",
+      "operating_profit": "83728814908",
+      "interest_expense": "22885045894",
+      "interest_source": "paid_operating",
+      "short_term_debt": "320166092485",
+      "debt": "428619805730",
+      "equity": null,
+      "mapping_status": "review_required"
+    },
+    {
+      "company_name": "화신",
+      "corp_code": "00166315",
+      "fiscal_year": 2023,
+      "fs_div": "OFS",
+      "operating_profit": "38848898706",
+      "interest_expense": "14116212522",
+      "interest_source": "paid_operating",
+      "short_term_debt": "206651344504",
+      "debt": "282884664504",
+      "equity": null,
+      "mapping_status": "review_required"
+    },
+    {
+      "company_name": "화신",
+      "corp_code": "00166315",
+      "fiscal_year": 2024,
+      "fs_div": "CFS",
+      "operating_profit": "65310768287",
+      "interest_expense": "25004544001",
+      "interest_source": "paid_operating",
+      "short_term_debt": "290178766393",
+      "debt": "401096121757",
+      "equity": null,
+      "mapping_status": "review_required"
+    },
+    {
+      "company_name": "화신",
+      "corp_code": "00166315",
+      "fiscal_year": 2024,
+      "fs_div": "OFS",
+      "operating_profit": "18068963685",
+      "interest_expense": "15013073236",
+      "interest_source": "paid_operating",
+      "short_term_debt": "221660000000",
+      "debt": "280533280000",
+      "equity": null,
+      "mapping_status": "review_required"
+    },
+    {
+      "company_name": "화신",
+      "corp_code": "00166315",
+      "fiscal_year": 2025,
+      "fs_div": "CFS",
+      "operating_profit": "102447956813",
+      "interest_expense": "24820651570",
+      "interest_source": "paid_operating",
+      "short_term_debt": "359367023122",
+      "debt": "667445343821",
+      "equity": null,
+      "mapping_status": "review_required"
+    },
+    {
+      "company_name": "화신",
+      "corp_code": "00166315",
+      "fiscal_year": 2025,
+      "fs_div": "OFS",
+      "operating_profit": "47707166716",
+      "interest_expense": "14546060084",
+      "interest_source": "paid_operating",
+      "short_term_debt": "278228200000",
+      "debt": "383089270000",
+      "equity": null,
+      "mapping_status": "review_required"
+    }
+  ],
+  "ecos": {
+    "rate_count": 3653,
+    "rate_min": "2016-01-01",
+    "rate_max": "2025-12-31",
+    "fx_by_curr": [
+      {
+        "currency": "EUR",
+        "count": 2462,
+        "min": "2016-01-04",
+        "max": "2025-12-31"
+      },
+      {
+        "currency": "JPY",
+        "count": 742,
+        "min": "2021-01-04",
+        "max": "2023-12-29"
+      },
+      {
+        "currency": "USD",
+        "count": 2462,
+        "min": "2016-01-04",
+        "max": "2025-12-31"
+      }
+    ],
+    "v_year_end_rate": [
+      {
+        "fiscal_year": 2016,
+        "base_rate": "1.2500",
+        "rate_date": "2016-12-31"
+      },
+      {
+        "fiscal_year": 2017,
+        "base_rate": "1.5000",
+        "rate_date": "2017-12-31"
+      },
+      {
+        "fiscal_year": 2018,
+        "base_rate": "1.7500",
+        "rate_date": "2018-12-31"
+      },
+      {
+        "fiscal_year": 2019,
+        "base_rate": "1.2500",
+        "rate_date": "2019-12-31"
+      },
+      {
+        "fiscal_year": 2020,
+        "base_rate": "0.5000",
+        "rate_date": "2020-12-31"
+      },
+      {
+        "fiscal_year": 2021,
+        "base_rate": "1.0000",
+        "rate_date": "2021-12-31"
+      },
+      {
+        "fiscal_year": 2022,
+        "base_rate": "3.2500",
+        "rate_date": "2022-12-31"
+      },
+      {
+        "fiscal_year": 2023,
+        "base_rate": "3.5000",
+        "rate_date": "2023-12-31"
+      },
+      {
+        "fiscal_year": 2024,
+        "base_rate": "3.0000",
+        "rate_date": "2024-12-31"
+      },
+      {
+        "fiscal_year": 2025,
+        "base_rate": "2.5000",
+        "rate_date": "2025-12-31"
+      }
+    ],
+    "v_year_end_fx": [
+      {
+        "fiscal_year": 2016,
+        "currency": "EUR",
+        "year_end_fx": "1267.6000",
+        "yoy_change_pct": "None"
+      },
+      {
+        "fiscal_year": 2017,
+        "currency": "EUR",
+        "year_end_fx": "1279.2500",
+        "yoy_change_pct": "0.92"
+      },
+      {
+        "fiscal_year": 2018,
+        "currency": "EUR",
+        "year_end_fx": "1279.1600",
+        "yoy_change_pct": "-0.01"
+      },
+      {
+        "fiscal_year": 2019,
+        "currency": "EUR",
+        "year_end_fx": "1297.4300",
+        "yoy_change_pct": "1.43"
+      },
+      {
+        "fiscal_year": 2020,
+        "currency": "EUR",
+        "year_end_fx": "1338.2400",
+        "yoy_change_pct": "3.15"
+      },
+      {
+        "fiscal_year": 2021,
+        "currency": "EUR",
+        "year_end_fx": "1342.3400",
+        "yoy_change_pct": "0.31"
+      },
+      {
+        "fiscal_year": 2022,
+        "currency": "EUR",
+        "year_end_fx": "1351.2000",
+        "yoy_change_pct": "0.66"
+      },
+      {
+        "fiscal_year": 2023,
+        "currency": "EUR",
+        "year_end_fx": "1426.5900",
+        "yoy_change_pct": "5.58"
+      },
+      {
+        "fiscal_year": 2024,
+        "currency": "EUR",
+        "year_end_fx": "1528.7300",
+        "yoy_change_pct": "7.16"
+      },
+      {
+        "fiscal_year": 2025,
+        "currency": "EUR",
+        "year_end_fx": "1685.7200",
+        "yoy_change_pct": "10.27"
+      },
+      {
+        "fiscal_year": 2021,
+        "currency": "JPY",
+        "year_end_fx": "1030.2400",
+        "yoy_change_pct": "None"
+      },
+      {
+        "fiscal_year": 2022,
+        "currency": "JPY",
+        "year_end_fx": "953.1800",
+        "yoy_change_pct": "-7.48"
+      },
+      {
+        "fiscal_year": 2023,
+        "currency": "JPY",
+        "year_end_fx": "912.6600",
+        "yoy_change_pct": "-4.25"
+      },
+      {
+        "fiscal_year": 2016,
+        "currency": "USD",
+        "year_end_fx": "1208.5000",
+        "yoy_change_pct": "None"
+      },
+      {
+        "fiscal_year": 2017,
+        "currency": "USD",
+        "year_end_fx": "1071.4000",
+        "yoy_change_pct": "-11.34"
+      },
+      {
+        "fiscal_year": 2018,
+        "currency": "USD",
+        "year_end_fx": "1118.1000",
+        "yoy_change_pct": "4.36"
+      },
+      {
+        "fiscal_year": 2019,
+        "currency": "USD",
+        "year_end_fx": "1157.8000",
+        "yoy_change_pct": "3.55"
+      },
+      {
+        "fiscal_year": 2020,
+        "currency": "USD",
+        "year_end_fx": "1088.0000",
+        "yoy_change_pct": "-6.03"
+      },
+      {
+        "fiscal_year": 2021,
+        "currency": "USD",
+        "year_end_fx": "1185.5000",
+        "yoy_change_pct": "8.96"
+      },
+      {
+        "fiscal_year": 2022,
+        "currency": "USD",
+        "year_end_fx": "1267.3000",
+        "yoy_change_pct": "6.90"
+      },
+      {
+        "fiscal_year": 2023,
+        "currency": "USD",
+        "year_end_fx": "1289.4000",
+        "yoy_change_pct": "1.74"
+      },
+      {
+        "fiscal_year": 2024,
+        "currency": "USD",
+        "year_end_fx": "1470.0000",
+        "yoy_change_pct": "14.01"
+      },
+      {
+        "fiscal_year": 2025,
+        "currency": "USD",
+        "year_end_fx": "1434.9000",
+        "yoy_change_pct": "-2.39"
+      }
+    ]
+  },
+  "b_inputs": {
+    "fx_risk_input": {
+      "count": 90,
+      "companies": 10,
+      "min_year": 2021,
+      "max_year": 2025,
+      "duplicates": 0
+    },
+    "rate_sensitivity_input": {
+      "count": 50,
+      "companies": 10,
+      "min_year": 2021,
+      "max_year": 2025,
+      "duplicates": 0
+    }
+  },
+  "marts": {
+    "mart_rate_stress": {
+      "count": 150,
+      "companies": 10,
+      "min_year": 2021,
+      "max_year": 2025,
+      "scenarios": {
+        "R1": 50,
+        "R2": 50,
+        "R3": 50
+      },
+      "companies_list": [
+        {
+          "company_name": "HL만도",
+          "corp_code": "01042775",
+          "years_count": 5,
+          "total_rows": 15
+        },
+        {
+          "company_name": "SNT모티브",
+          "corp_code": "00398792",
+          "years_count": 5,
+          "total_rows": 15
+        },
+        {
+          "company_name": "기아",
+          "corp_code": "00106641",
+          "years_count": 5,
+          "total_rows": 15
+        },
+        {
+          "company_name": "명신산업",
+          "corp_code": "00173078",
+          "years_count": 5,
+          "total_rows": 15
+        },
+        {
+          "company_name": "서연이화",
+          "corp_code": "01036446",
+          "years_count": 5,
+          "total_rows": 15
+        },
+        {
+          "company_name": "성우하이텍",
+          "corp_code": "00132992",
+          "years_count": 5,
+          "total_rows": 15
+        },
+        {
+          "company_name": "에스엘",
+          "corp_code": "00148045",
+          "years_count": 5,
+          "total_rows": 15
+        },
+        {
+          "company_name": "현대모비스",
+          "corp_code": "00164788",
+          "years_count": 5,
+          "total_rows": 15
+        },
+        {
+          "company_name": "현대자동차",
+          "corp_code": "00164742",
+          "years_count": 5,
+          "total_rows": 15
+        },
+        {
+          "company_name": "화신",
+          "corp_code": "00166315",
+          "years_count": 5,
+          "total_rows": 15
+        }
+      ],
+      "grade_current_vals": [
+        "정상(무차입)",
+        "정상"
+      ],
+      "grade_stress_vals": [
+        "정상(무차입)",
+        "정상",
+        "관찰"
+      ]
+    },
+    "mart_fx_exposure": {
+      "count": 50,
+      "companies": 10,
+      "min_year": 2021,
+      "max_year": 2025,
+      "companies_list": [
+        {
+          "company_name": "HL만도",
+          "corp_code": "01042775",
+          "years_count": 5
+        },
+        {
+          "company_name": "SNT모티브",
+          "corp_code": "00398792",
+          "years_count": 5
+        },
+        {
+          "company_name": "기아",
+          "corp_code": "00106641",
+          "years_count": 5
+        },
+        {
+          "company_name": "명신산업",
+          "corp_code": "00173078",
+          "years_count": 5
+        },
+        {
+          "company_name": "서연이화",
+          "corp_code": "01036446",
+          "years_count": 5
+        },
+        {
+          "company_name": "성우하이텍",
+          "corp_code": "00132992",
+          "years_count": 5
+        },
+        {
+          "company_name": "에스엘",
+          "corp_code": "00148045",
+          "years_count": 5
+        },
+        {
+          "company_name": "현대모비스",
+          "corp_code": "00164788",
+          "years_count": 5
+        },
+        {
+          "company_name": "현대자동차",
+          "corp_code": "00164742",
+          "years_count": 5
+        },
+        {
+          "company_name": "화신",
+          "corp_code": "00166315",
+          "years_count": 5
+        }
+      ],
+      "relative_position_vals": [
+        "참고(완성차)",
+        "하",
+        "중",
+        "상"
+      ]
+    }
+  },
+  "v_screening": {
+    "columns": [
+      {
+        "column_name": "corp_code",
+        "data_type": "character"
+      },
+      {
+        "column_name": "company_name",
+        "data_type": "text"
+      },
+      {
+        "column_name": "in_sample",
+        "data_type": "boolean"
+      },
+      {
+        "column_name": "fiscal_year",
+        "data_type": "smallint"
+      },
+      {
+        "column_name": "scenario_id",
+        "data_type": "character varying"
+      },
+      {
+        "column_name": "scenario_label",
+        "data_type": "character varying"
+      },
+      {
+        "column_name": "rate_shock_pctp",
+        "data_type": "numeric"
+      },
+      {
+        "column_name": "icr_current",
+        "data_type": "numeric"
+      },
+      {
+        "column_name": "icr_stress_conservative",
+        "data_type": "numeric"
+      },
+      {
+        "column_name": "add_interest_conservative",
+        "data_type": "numeric"
+      },
+      {
+        "column_name": "icr_drop",
+        "data_type": "numeric"
+      },
+      {
+        "column_name": "grade_current",
+        "data_type": "character varying"
+      },
+      {
+        "column_name": "grade_stress",
+        "data_type": "character varying"
+      },
+      {
+        "column_name": "risk_shift_yn",
+        "data_type": "boolean"
+      },
+      {
+        "column_name": "grade_reason",
+        "data_type": "text"
+      },
+      {
+        "column_name": "basis",
+        "data_type": "character varying"
+      },
+      {
+        "column_name": "main_currency",
+        "data_type": "character varying"
+      },
+      {
+        "column_name": "fx_sensitivity_pct",
+        "data_type": "numeric"
+      },
+      {
+        "column_name": "impact_fx_up10",
+        "data_type": "numeric"
+      },
+      {
+        "column_name": "impact_fx_down10",
+        "data_type": "numeric"
+      },
+      {
+        "column_name": "impact_pct_equity",
+        "data_type": "numeric"
+      },
+      {
+        "column_name": "direction",
+        "data_type": "character varying"
+      },
+      {
+        "column_name": "relative_position",
+        "data_type": "character varying"
+      },
+      {
+        "column_name": "risk_type",
+        "data_type": "text"
+      },
+      {
+        "column_name": "priority_review_yn",
+        "data_type": "boolean"
+      },
+      {
+        "column_name": "priority_tier",
+        "data_type": "integer"
+      }
+    ],
+    "total_rows": 150,
+    "companies": 10,
+    "min_year": 2021,
+    "max_year": 2025,
+    "scenarios": {
+      "R1": 50,
+      "R2": 50,
+      "R3": 50
+    },
+    "risk_type_dist": {
+      "FX": 45,
+      "해당 없음": 105
+    },
+    "priority_review_dist": {
+      "False": 105,
+      "True": 45
+    },
+    "priority_tier_dist": {
+      "2": 45,
+      "3": 105
+    }
+  },
+  "rate_calc_mismatch_count": 3,
+  "rate_calc_sample_tested": 150,
+  "fx_calc_mismatch_count": 0,
+  "fx_calc_sample_tested": 50,
+  "ingestion_event_log": {
+    "columns": [
+      {
+        "column_name": "id",
+        "data_type": "bigint"
+      },
+      {
+        "column_name": "event_type",
+        "data_type": "character varying"
+      },
+      {
+        "column_name": "target_entity",
+        "data_type": "text"
+      },
+      {
+        "column_name": "status",
+        "data_type": "character varying"
+      },
+      {
+        "column_name": "records_affected",
+        "data_type": "integer"
+      },
+      {
+        "column_name": "triggered_at",
+        "data_type": "timestamp with time zone"
+      }
+    ],
+    "recent_logs": [
+      {
+        "id": 1,
+        "event_type": "DART_COLLECT_FAIL",
+        "target_entity": "CORP_99999999: OpenDART API Status 013: 조회된 데이터가 없습니다",
+        "status": "FAILED",
+        "records_affected": 0,
+        "triggered_at": "2026-10-08 01:06:23.824987+00:00"
+      }
+    ]
+  },
+  "readonly_account": {
+    "role_info": [
+      {
+        "rolname": "analyst_readonly",
+        "rolcanlogin": true,
+        "rolsuper": false
+      }
+    ],
+    "grants": [
+      {
+        "table_name": "staging_rate_final",
+        "privilege_type": "SELECT"
+      },
+      {
+        "table_name": "staging_fx_final",
+        "privilege_type": "SELECT"
+      },
+      {
+        "table_name": "ecos_fx",
+        "privilege_type": "SELECT"
+      },
+      {
+        "table_name": "account_mapping_master",
+        "privilege_type": "SELECT"
+      },
+      {
+        "table_name": "dim_company",
+        "privilege_type": "SELECT"
+      },
+      {
+        "table_name": "finance_raw",
+        "privilege_type": "SELECT"
+      },
+      {
+        "table_name": "mart_fx_exposure_backup_20261008",
+        "privilege_type": "SELECT"
+      },
+      {
+        "table_name": "mart_rate_stress_backup_20261008",
+        "privilege_type": "SELECT"
+      },
+      {
+        "table_name": "v_screening_backup_table_20261008",
+        "privilege_type": "SELECT"
+      },
+      {
+        "table_name": "v_screening",
+        "privilege_type": "SELECT"
+      },
+      {
+        "table_name": "ecos_rate",
+        "privilege_type": "SELECT"
+      },
+      {
+        "table_name": "dim_scenario",
+        "privilege_type": "SELECT"
+      },
+      {
+        "table_name": "ingestion_event_log",
+        "privilege_type": "SELECT"
+      },
+      {
+        "table_name": "fx_risk_input",
+        "privilege_type": "SELECT"
+      },
+      {
+        "table_name": "rate_sensitivity_input",
+        "privilege_type": "SELECT"
+      },
+      {
+        "table_name": "finance_standard",
+        "privilege_type": "SELECT"
+      },
+      {
+        "table_name": "v_year_end_rate",
+        "privilege_type": "SELECT"
+      },
+      {
+        "table_name": "v_year_end_fx",
+        "privilege_type": "SELECT"
+      },
+      {
+        "table_name": "mart_fx_exposure",
+        "privilege_type": "SELECT"
+      },
+      {
+        "table_name": "mart_rate_stress",
+        "privilege_type": "SELECT"
+      }
+    ]
+  },
+  "erd_constraints": [
+    {
+      "table_name": "account_mapping_master",
+      "column_name": "id",
+      "constraint_type": "PRIMARY KEY"
+    },
+    {
+      "table_name": "dim_company",
+      "column_name": "corp_code",
+      "constraint_type": "PRIMARY KEY"
+    },
+    {
+      "table_name": "dim_scenario",
+      "column_name": "scenario_id",
+      "constraint_type": "PRIMARY KEY"
+    },
+    {
+      "table_name": "ecos_fx",
+      "column_name": "id",
+      "constraint_type": "PRIMARY KEY"
+    },
+    {
+      "table_name": "ecos_rate",
+      "column_name": "id",
+      "constraint_type": "PRIMARY KEY"
+    },
+    {
+      "table_name": "finance_raw",
+      "column_name": "corp_code",
+      "constraint_type": "FOREIGN KEY"
+    },
+    {
+      "table_name": "finance_raw",
+      "column_name": "id",
+      "constraint_type": "PRIMARY KEY"
+    },
+    {
+      "table_name": "finance_standard",
+      "column_name": "corp_code",
+      "constraint_type": "FOREIGN KEY"
+    },
+    {
+      "table_name": "finance_standard",
+      "column_name": "id",
+      "constraint_type": "PRIMARY KEY"
+    },
+    {
+      "table_name": "fx_risk_input",
+      "column_name": "corp_code",
+      "constraint_type": "FOREIGN KEY"
+    },
+    {
+      "table_name": "fx_risk_input",
+      "column_name": "id",
+      "constraint_type": "PRIMARY KEY"
+    },
+    {
+      "table_name": "ingestion_event_log",
+      "column_name": "id",
+      "constraint_type": "PRIMARY KEY"
+    },
+    {
+      "table_name": "mart_fx_exposure",
+      "column_name": "corp_code",
+      "constraint_type": "FOREIGN KEY"
+    },
+    {
+      "table_name": "mart_fx_exposure",
+      "column_name": "corp_code",
+      "constraint_type": "PRIMARY KEY"
+    },
+    {
+      "table_name": "mart_fx_exposure",
+      "column_name": "fiscal_year",
+      "constraint_type": "PRIMARY KEY"
+    },
+    {
+      "table_name": "mart_rate_stress",
+      "column_name": "corp_code",
+      "constraint_type": "FOREIGN KEY"
+    },
+    {
+      "table_name": "mart_rate_stress",
+      "column_name": "scenario_id",
+      "constraint_type": "FOREIGN KEY"
+    },
+    {
+      "table_name": "mart_rate_stress",
+      "column_name": "corp_code",
+      "constraint_type": "PRIMARY KEY"
+    },
+    {
+      "table_name": "mart_rate_stress",
+      "column_name": "fiscal_year",
+      "constraint_type": "PRIMARY KEY"
+    },
+    {
+      "table_name": "mart_rate_stress",
+      "column_name": "scenario_id",
+      "constraint_type": "PRIMARY KEY"
+    },
+    {
+      "table_name": "rate_sensitivity_input",
+      "column_name": "corp_code",
+      "constraint_type": "FOREIGN KEY"
+    },
+    {
+      "table_name": "rate_sensitivity_input",
+      "column_name": "id",
+      "constraint_type": "PRIMARY KEY"
+    }
+  ]
+}

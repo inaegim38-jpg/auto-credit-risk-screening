@@ -1,0 +1,135 @@
+{
+  "name": "DART Financial Statement Pipeline",
+  "nodes": [
+    {
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "field": "cronExpression",
+              "expression": "0 6 * * 1"
+            }
+          ]
+        }
+      },
+      "id": "1",
+      "name": "Schedule Trigger (매주 월 06:00)",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.1,
+      "position": [200, 300]
+    },
+    {
+      "parameters": {
+        "url": "https://opendart.fss.or.kr/api/fnlttSinglAcntAll.json",
+        "options": {},
+        "queryParametersUi": {
+          "parameter": [
+            {
+              "name": "crtfc_key",
+              "value": "={{ $env.DART_API_KEY }}"
+            },
+            {
+              "name": "corp_code",
+              "value": "00126380"
+            },
+            {
+              "name": "bsns_year",
+              "value": "2023"
+            },
+            {
+              "name": "reprt_code",
+              "value": "11011"
+            },
+            {
+              "name": "fs_div",
+              "value": "CFS"
+            }
+          ]
+        }
+      },
+      "id": "2",
+      "name": "OpenDART API HTTP Request",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.1,
+      "position": [420, 300]
+    },
+    {
+      "parameters": {
+        "jsCode": "const items = $input.first().json.list || [];\nreturn items.map(item => ({\n  json: {\n    corp_code: item.corp_code,\n    company_name: '삼성전자',\n    fiscal_year: item.bsns_year,\n    report_type: item.reprt_code,\n    account_id_raw: item.account_id || null,\n    account_name_raw: item.account_nm,\n    sj_nm: item.sj_nm,\n    fs_div: 'CFS',\n    amount: item.thstrm_amount ? Number(item.thstrm_amount) : null,\n    unit: 'KRW',\n    source: 'n8n OpenDART Pipeline',\n    collected_at: new Date().toISOString()\n  }\n}));"
+      },
+      "id": "3",
+      "name": "데이터 정제 & NULL 보존 (Code)",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [640, 300]
+    },
+    {
+      "parameters": {
+        "operation": "executeQuery",
+        "query": "INSERT INTO public.finance_raw (corp_code, company_name, fiscal_year, report_type, account_id_raw, account_name_raw, sj_nm, fs_div, amount, unit, source, collected_at) VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12);"
+      },
+      "id": "4",
+      "name": "PostgreSQL (finance_raw 적재)",
+      "type": "n8n-nodes-base.postgres",
+      "typeVersion": 2.3,
+      "position": [860, 300]
+    },
+    {
+      "parameters": {
+        "operation": "executeQuery",
+        "query": "CALL public.refresh_finance_standard();"
+      },
+      "id": "5",
+      "name": "PostgreSQL (finance_standard 정규화)",
+      "type": "n8n-nodes-base.postgres",
+      "typeVersion": 2.3,
+      "position": [1080, 300]
+    }
+  ],
+  "connections": {
+    "Schedule Trigger (매주 월 06:00)": {
+      "main": [
+        [
+          {
+            "node": "OpenDART API HTTP Request",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "OpenDART API HTTP Request": {
+      "main": [
+        [
+          {
+            "node": "데이터 정제 & NULL 보존 (Code)",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "데이터 정제 & NULL 보존 (Code)": {
+      "main": [
+        [
+          {
+            "node": "PostgreSQL (finance_raw 적재)",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "PostgreSQL (finance_raw 적재)": {
+      "main": [
+        [
+          {
+            "node": "PostgreSQL (finance_standard 정규화)",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  }
+}

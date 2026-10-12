@@ -1,0 +1,31 @@
+﻿corp_code,company_name,in_sample,has_disclosure,fiscal_year,basis,shock_pctp,impact_up,impact_down,impact_target,source_doc,note
+00561866,에스엘,TRUE,TRUE,2021,CFS,1,,,,,미입력
+00561866,에스엘,TRUE,TRUE,2022,CFS,1,,,,,미입력
+00561866,에스엘,TRUE,TRUE,2023,CFS,1,,,,,미입력
+01036446,서연이화,TRUE,TRUE,2021,CFS,1,,,,,미입력
+01036446,서연이화,TRUE,TRUE,2022,CFS,1,,,,,미입력
+01036446,서연이화,TRUE,TRUE,2023,CFS,1,,,,,미입력
+00173078,명신산업,TRUE,TRUE,2021,CFS,1,,,,,미입력
+00173078,명신산업,TRUE,TRUE,2022,CFS,1,,,,,미입력
+00173078,명신산업,TRUE,TRUE,2023,CFS,1,,,,,미입력
+00164788,현대모비스,TRUE,TRUE,2021,CFS,1,,,,,미입력
+00164788,현대모비스,TRUE,TRUE,2022,CFS,1,,,,,미입력
+00164788,현대모비스,TRUE,TRUE,2023,CFS,1,,,,,미입력
+00164742,현대자동차,FALSE,TRUE,2021,CFS,1,,,,,미입력
+00164742,현대자동차,FALSE,TRUE,2022,CFS,1,,,,,미입력
+00164742,현대자동차,FALSE,TRUE,2023,CFS,1,,,,,미입력
+00106641,기아,FALSE,TRUE,2021,CFS,1,,,,,미입력
+00106641,기아,FALSE,TRUE,2022,CFS,1,,,,,미입력
+00106641,기아,FALSE,TRUE,2023,CFS,1,,,,,미입력
+00166315,화신,TRUE,FALSE,2021,CFS,,,,,,공시 없음
+00166315,화신,TRUE,FALSE,2022,CFS,,,,,,공시 없음
+00166315,화신,TRUE,FALSE,2023,CFS,,,,,,공시 없음
+00398792,SNT모티브,TRUE,FALSE,2021,CFS,,,,,,공시 없음
+00398792,SNT모티브,TRUE,FALSE,2022,CFS,,,,,,공시 없음
+00398792,SNT모티브,TRUE,FALSE,2023,CFS,,,,,,공시 없음
+01042775,HL만도,TRUE,FALSE,2021,CFS,,,,,,공시 없음
+01042775,HL만도,TRUE,FALSE,2022,CFS,,,,,,공시 없음
+01042775,HL만도,TRUE,FALSE,2023,CFS,,,,,,공시 없음
+00132992,성우하이텍,TRUE,FALSE,2021,CFS,,,,,,공시 없음
+00132992,성우하이텍,TRUE,FALSE,2022,CFS,,,,,,공시 없음
+00132992,성우하이텍,TRUE,FALSE,2023,CFS,,,,,,공시 없음

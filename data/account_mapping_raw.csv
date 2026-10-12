@@ -1,0 +1,149 @@
+﻿corp_name,corp_code,year,account_nm,account_id,sj_nm,thstrm_amount
+삼성전자,00126380,2021,단기차입금,ifrs-full_ShorttermBorrowings,재무상태표,13687793000000
+삼성전자,00126380,2021,유동성장기부채,-표준계정코드 미사용-,재무상태표,1329968000000
+삼성전자,00126380,2021,사채,dart_BondsIssued,재무상태표,508232000000
+삼성전자,00126380,2021,장기차입금,dart_LongTermBorrowingsGross,재무상태표,2866156000000
+삼성전자,00126380,2021,영업이익,dart_OperatingIncomeLoss,손익계산서,51633856000000
+삼성전자,00126380,2021,금융비용,-표준계정코드 미사용-,손익계산서,7704554000000
+삼성전자,00126380,2021,계속영업이익(손실),ifrs-full_ProfitLossFromContinuingOperations,손익계산서,39907450000000
+삼성전자,00126380,2021,이자의 수취,ifrs-full_InterestReceivedClassifiedAsOperatingActivities,현금흐름표,1406706000000
+삼성전자,00126380,2021,이자의 지급,ifrs-full_InterestPaidClassifiedAsOperatingActivities,현금흐름표,434441000000
+삼성전자,00126380,2021,단기차입금의 순증가(감소),-표준계정코드 미사용-,현금흐름표,-2616943000000
+삼성전자,00126380,2021,장기차입금의 차입,-표준계정코드 미사용-,현금흐름표,58279000000
+삼성전자,00126380,2021,사채 및 장기차입금의 상환,dart_RepaymentsOfLongTermBorrowings,현금흐름표,894749000000
+삼성전자,00126380,2022,단기차입금,ifrs-full_ShorttermBorrowings,재무상태표,5147315000000
+삼성전자,00126380,2022,유동성장기부채,-표준계정코드 미사용-,재무상태표,1089162000000
+삼성전자,00126380,2022,사채,dart_BondsIssued,재무상태표,536093000000
+삼성전자,00126380,2022,장기차입금,dart_LongTermBorrowingsGross,재무상태표,3560672000000
+삼성전자,00126380,2022,영업이익,dart_OperatingIncomeLoss,손익계산서,43376630000000
+삼성전자,00126380,2022,금융비용,-표준계정코드 미사용-,손익계산서,19027689000000
+삼성전자,00126380,2022,계속영업이익(손실),ifrs-full_ProfitLossFromContinuingOperations,손익계산서,55654077000000
+삼성전자,00126380,2022,이자의 수취,ifrs-full_InterestReceivedClassifiedAsOperatingActivities,현금흐름표,2136795000000
+삼성전자,00126380,2022,이자의 지급,ifrs-full_InterestPaidClassifiedAsOperatingActivities,현금흐름표,714543000000
+삼성전자,00126380,2022,단기차입금의 순증가(감소),-표준계정코드 미사용-,현금흐름표,-8339149000000
+삼성전자,00126380,2022,장기차입금의 차입,-표준계정코드 미사용-,현금흐름표,271997000000
+삼성전자,00126380,2022,사채 및 장기차입금의 상환,dart_RepaymentsOfLongTermBorrowings,현금흐름표,1508465000000
+삼성전자,00126380,2023,단기차입금,-표준계정코드 미사용-,재무상태표,7114601000000
+삼성전자,00126380,2023,유동성장기부채,ifrs-full_CurrentPortionOfLongtermBorrowings,재무상태표,1308875000000
+삼성전자,00126380,2023,사채,ifrs-full_NoncurrentPortionOfNoncurrentBondsIssued,재무상태표,537618000000
+삼성전자,00126380,2023,장기차입금,ifrs-full_NoncurrentPortionOfNoncurrentLoansReceived,재무상태표,3724850000000
+삼성전자,00126380,2023,영업이익,dart_OperatingIncomeLoss,손익계산서,6566976000000
+삼성전자,00126380,2023,금융비용,ifrs-full_FinanceCosts,손익계산서,12645530000000
+삼성전자,00126380,2023,계속영업이익(손실),ifrs-full_ProfitLossFromContinuingOperations,손익계산서,15487100000000
+삼성전자,00126380,2023,장기차입금의 차입 (주27),dart_ProceedsFromLongTermBorrowings,현금흐름표,354712000000
+삼성전자,00126380,2023,사채 및 장기차입금의 상환 (주27),dart_RepaymentsOfLongTermBorrowings,현금흐름표,1219579000000
+삼성전자,00126380,2023,단기차입금의 순증가(감소) (주27),ifrs-full_CashFlowsFromUsedInIncreaseDecreaseInCurrentBorrowings,현금흐름표,2145400000000
+삼성전자,00126380,2023,이자의 지급,ifrs-full_InterestPaidClassifiedAsOperatingActivities,현금흐름표,844691000000
+삼성전자,00126380,2023,이자의 수취,ifrs-full_InterestReceivedClassifiedAsOperatingActivities,현금흐름표,4786010000000
+SK하이닉스,00164779,2021,차입금,ifrs-full_ShorttermBorrowings,재무상태표,2880763000000
+SK하이닉스,00164779,2021,영업이익,dart_OperatingIncomeLoss,포괄손익계산서,12410340000000
+SK하이닉스,00164779,2021,금융비용,ifrs-full_FinanceCosts,포괄손익계산서,1469860000000
+SK하이닉스,00164779,2021,이자의 수취,ifrs-full_InterestReceivedClassifiedAsOperatingActivities,현금흐름표,17341000000
+SK하이닉스,00164779,2021,이자의 지급,ifrs-full_InterestPaidClassifiedAsOperatingActivities,현금흐름표,240942000000
+SK하이닉스,00164779,2021,차입금의 차입,ifrs-full_ProceedsFromBorrowingsClassifiedAsFinancingActivities,현금흐름표,8933737000000
+SK하이닉스,00164779,2021,차입금의 상환,ifrs-full_RepaymentsOfBorrowingsClassifiedAsFinancingActivities,현금흐름표,3320911000000
+SK하이닉스,00164779,2022,차입금,ifrs-full_ShorttermBorrowings,재무상태표,7423247000000
+SK하이닉스,00164779,2022,영업이익,dart_OperatingIncomeLoss,포괄손익계산서,6809417000000
+SK하이닉스,00164779,2022,금융비용,ifrs-full_FinanceCosts,포괄손익계산서,5091553000000
+SK하이닉스,00164779,2022,이자의 수취,ifrs-full_InterestReceivedClassifiedAsOperatingActivities,현금흐름표,77430000000
+SK하이닉스,00164779,2022,이자의 지급,ifrs-full_InterestPaidClassifiedAsOperatingActivities,현금흐름표,494513000000
+SK하이닉스,00164779,2022,차입금의 차입,ifrs-full_ProceedsFromBorrowingsClassifiedAsFinancingActivities,현금흐름표,11917454000000
+SK하이닉스,00164779,2022,차입금의 상환,ifrs-full_RepaymentsOfBorrowingsClassifiedAsFinancingActivities,현금흐름표,7124565000000
+SK하이닉스,00164779,2023,차입금,ifrs-full_CurrentBorrowingsAndCurrentPortionOfNoncurrentBorrowings,재무상태표,9857189000000
+SK하이닉스,00164779,2023,영업이익(손실),dart_OperatingIncomeLoss,포괄손익계산서,-7730313000000
+SK하이닉스,00164779,2023,금융비용,ifrs-full_FinanceCosts,포괄손익계산서,6093167000000
+SK하이닉스,00164779,2023,차입금의 차입,ifrs-full_ProceedsFromBorrowingsClassifiedAsFinancingActivities,현금흐름표,20657967000000
+SK하이닉스,00164779,2023,차입금의 상환,ifrs-full_RepaymentsOfBorrowingsClassifiedAsFinancingActivities,현금흐름표,13689433000000
+SK하이닉스,00164779,2023,이자의 지급,ifrs-full_InterestPaidClassifiedAsOperatingActivities,현금흐름표,1261540000000
+SK하이닉스,00164779,2023,이자수취,ifrs-full_InterestReceivedClassifiedAsOperatingActivities,현금흐름표,198872000000
+LG전자,00401731,2021,단기차입금,ifrs-full_ShorttermBorrowings,재무상태표,1895600000000
+LG전자,00401731,2021,장기차입금,dart_LongTermBorrowingsGross,재무상태표,8035953000000
+LG전자,00401731,2021,영업이익(손실),dart_OperatingIncomeLoss,손익계산서,3863774000000
+LG전자,00401731,2021,금융비용,ifrs-full_FinanceCosts,손익계산서,690401000000
+LG전자,00401731,2021,이자의 수취,ifrs-full_InterestReceivedClassifiedAsOperatingActivities,현금흐름표,82224000000
+LG전자,00401731,2021,이자의 지급,ifrs-full_InterestPaidClassifiedAsOperatingActivities,현금흐름표,318512000000
+LG전자,00401731,2021,차입금의 증가,ifrs-full_ProceedsFromBorrowingsClassifiedAsFinancingActivities,현금흐름표,1387368000000
+LG전자,00401731,2021,차입금의 상환,ifrs-full_RepaymentsOfBorrowingsClassifiedAsFinancingActivities,현금흐름표,1543349000000
+LG전자,00401731,2022,단기차입금,ifrs-full_ShorttermBorrowings,재무상태표,2287518000000
+LG전자,00401731,2022,장기차입금,dart_LongTermBorrowingsGross,재무상태표,8757669000000
+LG전자,00401731,2022,영업이익(손실),dart_OperatingIncomeLoss,손익계산서,3550972000000
+LG전자,00401731,2022,금융비용,ifrs-full_FinanceCosts,손익계산서,1231875000000
+LG전자,00401731,2022,이자의 수취,ifrs-full_InterestReceivedClassifiedAsOperatingActivities,현금흐름표,187103000000
+LG전자,00401731,2022,이자의 지급,ifrs-full_InterestPaidClassifiedAsOperatingActivities,현금흐름표,374707000000
+LG전자,00401731,2022,차입금의 증가,ifrs-full_ProceedsFromBorrowingsClassifiedAsFinancingActivities,현금흐름표,4590931000000
+LG전자,00401731,2022,차입금의 상환,ifrs-full_RepaymentsOfBorrowingsClassifiedAsFinancingActivities,현금흐름표,3586668000000
+LG전자,00401731,2023,차입금,ifrs-full_CurrentBorrowingsAndCurrentPortionOfNoncurrentBorrowings,재무상태표,2601636000000
+LG전자,00401731,2023,영업이익,dart_OperatingIncomeLoss,손익계산서,3549074000000
+LG전자,00401731,2023,금융비용,ifrs-full_FinanceCosts,손익계산서,1425480000000
+LG전자,00401731,2023,차입금의 증가,ifrs-full_ProceedsFromBorrowingsClassifiedAsFinancingActivities,현금흐름표,6062470000000
+LG전자,00401731,2023,차입금의 상환,ifrs-full_RepaymentsOfBorrowingsClassifiedAsFinancingActivities,현금흐름표,4021405000000
+LG전자,00401731,2023,이자의 지급,ifrs-full_InterestPaidClassifiedAsOperatingActivities,현금흐름표,559990000000
+LG전자,00401731,2023,이자의 수취,ifrs-full_InterestReceivedClassifiedAsOperatingActivities,현금흐름표,423638000000
+현대자동차,00164742,2021,단기차입금,ifrs-full_ShorttermBorrowings,재무상태표,13087836000000
+현대자동차,00164742,2021,유동성장기부채,ifrs-full_CurrentPortionOfLongtermBorrowings,재무상태표,20578902000000
+현대자동차,00164742,2021,사채,dart_BondsIssued,재무상태표,63458809000000
+현대자동차,00164742,2021,장기차입금,dart_LongTermBorrowingsGross,재무상태표,10667731000000
+현대자동차,00164742,2021,영업이익,dart_OperatingIncomeLoss,손익계산서,6678949000000
+현대자동차,00164742,2021,금융비용,ifrs-full_FinanceCosts,손익계산서,548410000000
+현대자동차,00164742,2021,이자의 수취,ifrs-full_InterestReceivedClassifiedAsOperatingActivities,현금흐름표,449789000000
+현대자동차,00164742,2021,이자의 지급,ifrs-full_InterestPaidClassifiedAsOperatingActivities,현금흐름표,1905945000000
+현대자동차,00164742,2021,단기차입금의 순증감,dart_ProceedsFromShortTermBorrowings,현금흐름표,-620051000000
+현대자동차,00164742,2021,장기차입금 및 사채의 차입,dart_ProceedsFromBonds,현금흐름표,40688506000000
+현대자동차,00164742,2021,장기차입금 및 사채의 상환,dart_RepaymentsOfLongTermBorrowings,현금흐름표,29164478000000
+현대자동차,00164742,2022,단기차입금,ifrs-full_ShorttermBorrowings,재무상태표,11366480000000
+현대자동차,00164742,2022,유동성장기부채,ifrs-full_CurrentPortionOfLongtermBorrowings,재무상태표,25574131000000
+현대자동차,00164742,2022,사채,dart_BondsIssued,재무상태표,62960060000000
+현대자동차,00164742,2022,장기차입금,dart_LongTermBorrowingsGross,재무상태표,12285149000000
+현대자동차,00164742,2022,영업이익,dart_OperatingIncomeLoss,손익계산서,9819769000000
+현대자동차,00164742,2022,금융비용,ifrs-full_FinanceCosts,손익계산서,1054228000000
+현대자동차,00164742,2022,이자의 수취,ifrs-full_InterestReceivedClassifiedAsOperatingActivities,현금흐름표,867192000000
+현대자동차,00164742,2022,이자의 지급,ifrs-full_InterestPaidClassifiedAsOperatingActivities,현금흐름표,2695029000000
+현대자동차,00164742,2022,단기차입금의 차입,dart_ProceedsFromShortTermBorrowings,현금흐름표,3388510000000
+현대자동차,00164742,2022,장기차입금 및 사채의 차입,dart_ProceedsFromBonds,현금흐름표,30089495000000
+현대자동차,00164742,2022,단기차입금의 상환,dart_RepaymentsOfShortTermBorrowings,현금흐름표,6070109000000
+현대자동차,00164742,2022,장기차입금 및 사채의 상환,dart_RepaymentsOfLongTermBorrowings,현금흐름표,27086324000000
+현대자동차,00164742,2023,유동성장기부채,ifrs-full_CurrentPortionOfLongtermBorrowings,재무상태표,25109158000000
+현대자동차,00164742,2023,단기차입금,ifrs-full_ShorttermBorrowings,재무상태표,9035548000000
+현대자동차,00164742,2023,장기차입금,-표준계정코드 미사용-,재무상태표,17569760000000
+현대자동차,00164742,2023,사채,ifrs-full_NoncurrentPortionOfNoncurrentBondsIssued,재무상태표,73033493000000
+현대자동차,00164742,2023,영업이익,dart_OperatingIncomeLoss,손익계산서,15126901000000
+현대자동차,00164742,2023,금융비용,ifrs-full_FinanceCosts,손익계산서,970700000000
+현대자동차,00164742,2023,단기차입금의 차입,dart_ProceedsFromShortTermBorrowings,현금흐름표,2144959000000
+현대자동차,00164742,2023,단기차입금의 상환,dart_RepaymentsOfShortTermBorrowings,현금흐름표,4762286000000
+현대자동차,00164742,2023,장기차입금 및 사채의 차입,-표준계정코드 미사용-,현금흐름표,49089498000000
+현대자동차,00164742,2023,장기차입금 및 사채의 상환,-표준계정코드 미사용-,현금흐름표,34942180000000
+현대자동차,00164742,2023,이자의 지급,ifrs-full_InterestPaidClassifiedAsOperatingActivities,현금흐름표,4237818000000
+현대자동차,00164742,2023,이자의 수취,ifrs-full_InterestReceivedClassifiedAsOperatingActivities,현금흐름표,1672380000000
+POSCO홀딩스,00155319,2021,단기차입금,-표준계정코드 미사용-,재무상태표,8830066912208
+POSCO홀딩스,00155319,2021,장기차입금,-표준계정코드 미사용-,재무상태표,12911148863378
+POSCO홀딩스,00155319,2021,영업이익,dart_OperatingIncomeLoss,포괄손익계산서,9238089232877
+POSCO홀딩스,00155319,2021,금융비용,-표준계정코드 미사용-,포괄손익계산서,2765175646682
+POSCO홀딩스,00155319,2021,이자의 수취,ifrs-full_InterestReceivedClassifiedAsOperatingActivities,현금흐름표,279554109203
+POSCO홀딩스,00155319,2021,이자의 지급,ifrs-full_InterestPaidClassifiedAsOperatingActivities,현금흐름표,433794265178
+POSCO홀딩스,00155319,2021,사채 및 장기차입금의 차입,-표준계정코드 미사용-,현금흐름표,4358955273475
+POSCO홀딩스,00155319,2021,사채 및 장기차입금의 상환,-표준계정코드 미사용-,현금흐름표,3719541696731
+POSCO홀딩스,00155319,2021,단기차입금의 순차입,-표준계정코드 미사용-,현금흐름표,-329896992959
+POSCO홀딩스,00155319,2021,신종자본증권 이자지급,-표준계정코드 미사용-,현금흐름표,16493999998
+POSCO홀딩스,00155319,2021,신종자본증권 이자,-표준계정코드 미사용-,자본변동표,-9199999998
+POSCO홀딩스,00155319,2022,단기차입금,-표준계정코드 미사용-,재무상태표,11915993975888
+POSCO홀딩스,00155319,2022,장기차입금,-표준계정코드 미사용-,재무상태표,12389668141243
+POSCO홀딩스,00155319,2022,영업이익,dart_OperatingIncomeLoss,포괄손익계산서,4850053015766
+POSCO홀딩스,00155319,2022,금융비용,-표준계정코드 미사용-,포괄손익계산서,5804466419303
+POSCO홀딩스,00155319,2022,이자의 수취,ifrs-full_InterestReceivedClassifiedAsOperatingActivities,현금흐름표,249750659549
+POSCO홀딩스,00155319,2022,이자의 지급,ifrs-full_InterestPaidClassifiedAsOperatingActivities,현금흐름표,560765795242
+POSCO홀딩스,00155319,2022,사채 및 장기차입금의 차입,-표준계정코드 미사용-,현금흐름표,4553746150046
+POSCO홀딩스,00155319,2022,사채 및 장기차입금의 상환,-표준계정코드 미사용-,현금흐름표,4138054121516
+POSCO홀딩스,00155319,2022,단기차입금의 순차입,-표준계정코드 미사용-,현금흐름표,1764569204722
+POSCO홀딩스,00155319,2022,신종자본증권 이자지급,-표준계정코드 미사용-,현금흐름표,16493999996
+POSCO홀딩스,00155319,2022,신종자본증권 이자,-표준계정코드 미사용-,자본변동표,-1487123287
+POSCO홀딩스,00155319,2023,차입금,ifrs-full_CurrentBorrowingsAndCurrentPortionOfNoncurrentBorrowings,재무상태표,10959217193118
+POSCO홀딩스,00155319,2023,장기차입금,ifrs-full_LongtermBorrowings,재무상태표,15011162372070
+POSCO홀딩스,00155319,2023,영업이익,dart_OperatingIncomeLoss,포괄손익계산서,3531422506439
+POSCO홀딩스,00155319,2023,금융비용,ifrs-full_FinanceCosts,포괄손익계산서,4202996381280
+POSCO홀딩스,00155319,2023,신종자본증권 이자지급,dart_InterestPaidToHybridBond,현금흐름표,10042909586
+POSCO홀딩스,00155319,2023,사채 및 장기차입금의 차입,dart_ProceedsFromLongTermBorrowings,현금흐름표,7817216770954
+POSCO홀딩스,00155319,2023,단기차입금의 순차입,dart_ProceedsFromShortTermBorrowings,현금흐름표,-2524077286746
+POSCO홀딩스,00155319,2023,사채 및 장기차입금의 상환,dart_RepaymentsOfLongTermBorrowings,현금흐름표,4461113526665
+POSCO홀딩스,00155319,2023,이자지급,ifrs-full_InterestPaidClassifiedAsOperatingActivities,현금흐름표,1038004558676
+POSCO홀딩스,00155319,2023,이자수취,ifrs-full_InterestReceivedClassifiedAsOperatingActivities,현금흐름표,447621002038
+POSCO홀딩스,00155319,2023,신종자본증권 이자,dart_InterestExpenseForHybridBond,자본변동표,8924531504

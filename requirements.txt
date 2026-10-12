@@ -1,0 +1,7 @@
+# 기업여신 다중위험 Screening 데이터 파이프라인 필수 패키지
+psycopg2-binary>=2.9.9
+pandas>=2.2.0
+numpy>=1.26.0
+requests>=2.31.0
+python-dotenv>=1.0.0
+openpyxl>=3.1.2

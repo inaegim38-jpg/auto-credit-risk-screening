@@ -1,0 +1,106 @@
+{
+  "name": "ECOS Interest Rate & FX Pipeline",
+  "nodes": [
+    {
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "field": "cronExpression",
+              "expression": "0 9 * * 1-5"
+            }
+          ]
+        }
+      },
+      "id": "1",
+      "name": "Schedule Trigger (영업일 09:00)",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.1,
+      "position": [200, 300]
+    },
+    {
+      "parameters": {
+        "url": "=https://ecos.bok.or.kr/api/StatisticSearch/{{ $env.ECOS_API_KEY }}/json/kr/1/10/722Y001/D/{{ $today.format('yyyyMMdd') }}/{{ $today.format('yyyyMMdd') }}/0101000",
+        "options": {}
+      },
+      "id": "2",
+      "name": "ECOS 기준금리 HTTP Request",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.1,
+      "position": [420, 200]
+    },
+    {
+      "parameters": {
+        "url": "=https://ecos.bok.or.kr/api/StatisticSearch/{{ $env.ECOS_API_KEY }}/json/kr/1/10/731Y001/D/{{ $today.format('yyyyMMdd') }}/{{ $today.format('yyyyMMdd') }}/0000001",
+        "options": {}
+      },
+      "id": "3",
+      "name": "ECOS 원/달러 환율 HTTP Request",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.1,
+      "position": [420, 400]
+    },
+    {
+      "parameters": {
+        "operation": "executeQuery",
+        "query": "INSERT INTO public.ecos_rate (date, indicator, rate, unit, source, collected_at) VALUES ($1, $2, $3, $4, $5, $6) ON CONFLICT (date, indicator) DO UPDATE SET rate = EXCLUDED.rate;"
+      },
+      "id": "4",
+      "name": "PostgreSQL (ecos_rate 적재)",
+      "type": "n8n-nodes-base.postgres",
+      "typeVersion": 2.3,
+      "position": [700, 200]
+    },
+    {
+      "parameters": {
+        "operation": "executeQuery",
+        "query": "INSERT INTO public.ecos_fx (date, currency, exchange_rate, unit, source, collected_at) VALUES ($1, $2, $3, $4, $5, $6) ON CONFLICT (date, currency) DO UPDATE SET exchange_rate = EXCLUDED.exchange_rate;"
+      },
+      "id": "5",
+      "name": "PostgreSQL (ecos_fx 적재)",
+      "type": "n8n-nodes-base.postgres",
+      "typeVersion": 2.3,
+      "position": [700, 400]
+    }
+  ],
+  "connections": {
+    "Schedule Trigger (영업일 09:00)": {
+      "main": [
+        [
+          {
+            "node": "ECOS 기준금리 HTTP Request",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "ECOS 원/달러 환율 HTTP Request",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "ECOS 기준금리 HTTP Request": {
+      "main": [
+        [
+          {
+            "node": "PostgreSQL (ecos_rate 적재)",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "ECOS 원/달러 환율 HTTP Request": {
+      "main": [
+        [
+          {
+            "node": "PostgreSQL (ecos_fx 적재)",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  }
+}

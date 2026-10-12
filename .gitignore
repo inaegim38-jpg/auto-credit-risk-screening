@@ -1,0 +1,54 @@
+# ============================================================
+# Git Ignore Configuration
+# ============================================================
+
+# 1. 보안 필수: 환경변수 및 비밀번호 파일
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+
+# 2. Python 캐시 및 빌드 부산물
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+build/
+dist/
+*.egg-info/
+
+# 3. 로그 및 임시 디버깅 텍스트 덤프
+*.log
+*_debug.txt
+*_dump.txt
+debt_debug.txt
+full_line_dump.txt
+extracted_docx.txt
+op_profit_debug.txt
+snt_interest.txt
+myongshin_interest.txt
+sungwoo_debt.txt
+sungwoo_liab.txt
+truth_prompt_*.txt
+truth_csv_*.txt
+
+# 4. 임시 작업 폴더
+scratch/
+tmp/
+.temp/
+
+# 5. IDE 및 OS 설정 파일
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+ehthumbs.db
+.ipynb_checkpoints
+
+data/raw/
+data/raw/**
